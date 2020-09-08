@@ -62,8 +62,41 @@ aside {
 
 .rightAside {
   width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
 }
 
+.rightAside .login {
+  padding: 5%;
+  background-color: #f5f5f5;
+}
+
+.rightAside .login > input {
+  margin: 0;
+  padding: 0;
+  height: 25px;
+
+  border: solid 1px #e6e9ec;
+}
+
+.rightAside .login .check {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.rightAside .login button {
+  width: 100%;
+  height: 25px;
+  background-color: rgb(75, 130, 255);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
 footer {
   height: 80px;
   background-color: #f9f9f9;
