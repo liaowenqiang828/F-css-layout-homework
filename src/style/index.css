@@ -34,9 +34,35 @@ main {
   min-height: 700px;
   display: flex;
 }
+
 .container {
   width: 65%;
+  padding: 2%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+.container section {
+  width: 49%;
+}
+
+.container .detail {
+  padding: 15px;
+  border: solid 1px #f0f0f0;
+}
+
+.container img {
+  width: 100%;
+  display: block;
+}
+
+.container a {
+  color: #5988ff;
+  text-decoration: none;
+}
+
 aside section {
   margin-top: 20px;
 }
@@ -85,6 +111,7 @@ aside {
   margin-top: 10px;
   display: flex;
   align-items: center;
+  font-size: 12px;
 }
 
 
