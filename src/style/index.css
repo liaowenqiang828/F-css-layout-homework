@@ -37,11 +37,19 @@ main {
 
 .container {
   width: 65%;
+  height: 1055px;
   padding: 2%;
 
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
+  clear: both;
+}
+
+.container section:nth-child(2) {
+  order: 1;
 }
 
 .container section {
@@ -97,6 +105,9 @@ aside {
 .rightAside .login {
   padding: 5%;
   background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .rightAside .login > input {
@@ -111,8 +122,20 @@ aside {
   margin-top: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 12px;
 }
+
+.login .emailInput {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.login .passwordInput {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
 
 
 .rightAside .login button {
